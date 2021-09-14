@@ -1,4 +1,4 @@
-# Server with jwt access and refresh token authentication (Express + MongoDB)
+# Express server with jwt (access and refresh) authentication + MongoDB
 
 
 ## env variables (examples):
