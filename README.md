@@ -17,12 +17,12 @@ JWT_REFRESH_KEY=Refresh_Token_Super_Secret_Key
 JWT_REFRESH_EXPIRES_IN=1d
 
 
-### SMTP parameters for sending registration link (Google Mial as example)
+### SMTP parameters for sending registration link (Google Mail as example)
 SMTP_HOST=smtp.gmail.com
 
 SMTP_PORT=587
 
-SMTP_USER=my-info-mail@gmail.com
+SMTP_USER=myinfomail@gmail.com
 
 SMTP_PASSWORD=My_Gmail_Password
 
