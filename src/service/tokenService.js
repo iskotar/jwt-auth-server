@@ -4,8 +4,8 @@ import Token from '../models/tokenModel.js'
 
 const generateTokens = (payload) => {
 
-  const accessToken = jwt.sign(payload, process.env.JWT_ACCESS_KEY, { expiresIn: '30s'})
-  const refreshToken = jwt.sign(payload, process.env.JWT_REFRESH_KEY, { expiresIn: '1d'})
+  const accessToken = jwt.sign(payload, process.env.JWT_ACCESS_KEY, { expiresIn:  process.env.JWT_ACCESS_EXPIRES_IN})
+  const refreshToken = jwt.sign(payload, process.env.JWT_REFRESH_KEY, { expiresIn:  process.env.JWT_REFRESH_EXPIRES_IN})
 
   return {
     accessToken,
